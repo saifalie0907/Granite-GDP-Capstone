@@ -29,7 +29,7 @@ The goal is to demonstrate how AI can extract insights and explain complex econo
 ---
 
 ## 🤖 AI Model Used
-- **Model Name:** `ibm-granite/granite-3.1-8b-instruct`  
+- **Model Name:** `ibm-granite/granite-3.3-8b-instruct`  
 - **Platform:** [Replicate](https://replicate.com/ibm-granite/granite-3.1-8b-instruct)  
 - **Capabilities:**  
   - Text summarization  
