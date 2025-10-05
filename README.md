@@ -1,20 +1,20 @@
 # 🌍 Capstone Project: Global GDP Analysis Using IBM Granite
 📘 **Open in Colab:** [Run this notebook](https://colab.research.google.com/drive/1nyijuerUpCfKszdOeqOx1Dgmef4woK-t#scrollTo=PsaeTr6nouzM)
 ## 🎯 Objective
-This project analyzes the **World GDP per Capita** dataset using **IBM Granite**, an AI large language model hosted on Replicate.  
+This project analyzes the **World GDP** dataset using **IBM Granite**, an AI large language model hosted on Replicate.  
 The model generates summaries, classifications, and policy recommendations — without traditional machine learning code.  
 The goal is to demonstrate how AI can extract insights and explain complex economic data through natural language reasoning.
 
 ---
 
 ## 📊 Dataset Information
-- **Source:** [World GDP per Capita Dataset](https://raw.githubusercontent.com/datasets/gdp/master/data/gdp.csv)  
+- **Source:** [World GDP Dataset](https://raw.githubusercontent.com/datasets/gdp/master/data/gdp.csv)  
 - **Format:** CSV  
 - **Columns:**  
   - `Country Name` — country  
   - `Country Code` — ISO code  
   - `Year` — data year  
-  - `Value` — GDP per capita (USD)
+  - `Value` — GDP (USD)
 
 ---
 
@@ -30,7 +30,7 @@ The goal is to demonstrate how AI can extract insights and explain complex econo
 
 ## 🤖 AI Model Used
 - **Model Name:** `ibm-granite/granite-3.3-8b-instruct`  
-- **Platform:** [Replicate](https://replicate.com/ibm-granite/granite-3.1-8b-instruct)  
+- **Platform:** [Replicate](https://replicate.com/ibm-granite/granite-3.3-8b-instruct)  
 - **Capabilities:**  
   - Text summarization  
   - Analytical reasoning  
@@ -54,19 +54,19 @@ The goal is to demonstrate how AI can extract insights and explain complex econo
 ### 🪄 Granite Summary
 🌍 Granite Global Economic Summary:
  1. **Global GDP Trends Summary**:
-   - The dataset provided offers a snapshot of GDP per capita for various regions and countries, with years ranging from 2022 to 2023.
-   - There is a significant variation in GDP per capita values, reflecting the diverse economic development levels across the world.
-   - Some countries, like Afghanistan (AFG) and American Samoa (ASM), have relatively lower GDP per capita, indicating less developed economies.
-   - In contrast, regions like the "Africa Eastern and Southern" (AFE) and the "Antarctica" (if it were included, not present here) show considerably higher GDP per capita values, suggesting more developed economies within those regions.
+   - The dataset provided offers a snapshot of GDP for various regions and countries, with years ranging from 2022 to 2023.
+   - There is a significant variation in GDP values, reflecting the diverse economic development levels across the world.
+   - Some countries, like Afghanistan (AFG) and American Samoa (ASM), have relatively lower GDP, indicating less developed economies.
+   - In contrast, regions like the "Africa Eastern and Southern" (AFE) and the "Antarctica" (if it were included, not present here) show considerably higher GDP values, suggesting more developed economies within those regions.
 
 2. **Income Distribution Insights**:
-   - **Regional Disparity**: The data highlights substantial income disparities between regions. For instance, the "Africa Eastern and Southern" (AFE) has a GDP per capita around 1.236163e+12 USD, which is significantly higher than Afghanistan (AFG) at 1.450216e+10 USD, illustrating vast differences in economic development.
+   - **Regional Disparity**: The data highlights substantial income disparities between regions. For instance, the "Africa Eastern and Southern" (AFE) has a GDP around 1.236163e+12 USD, which is significantly higher than Afghanistan (AFG) at 1.450216e+10 USD, illustrating vast differences in economic development.
    - **Within-Region Variation**: Even within a broader region like Africa, there's a considerable gap between "Africa Eastern and Southern" (AFE) and "Africa Western and Central" (AFW), indicating varied income levels within the same continent.
-   - **Country-Specific Insights**: Albania (ALB) and Algeria (DZA) show similar GDP per capita values, suggesting comparable economic standing. Meanwhile, Angola (AGO) has a considerably higher GDP per capita, showcasing income variation among countries with similar development stages.
+   - **Country-Specific Insights**: Albania (ALB) and Algeria (DZA) show similar GDP values, suggesting comparable economic standing. Meanwhile, Angola (AGO) has a considerably higher GDP, showcasing income variation among countries with similar development stages.
 
 3. **GDP Change in Recent Years**:
    - The dataset provides a cross-sectional view rather than a longitudinal one, making it challenging to discern exact changes over recent years.
-   - However, assuming the 'Year' column indicates the reference year for the GDP per capita value, we can infer that some countries, like Albania (ALB) and Algeria (DZA), might have experienced growth if their values
+   - However, assuming the 'Year' column indicates the reference year for the GDP value, we can infer that some countries, like Albania (ALB) and Algeria (DZA), might have experienced growth if their values
 
 ### 🗂️ Granite Classification
 📊 Granite Country Classification:
@@ -87,7 +87,7 @@ The goal is to demonstrate how AI can extract insights and explain complex econo
 
 ### 💡 Granite Recommendations
 💡 Granite Economic Recommendations:
- 1. **Low-income countries:** Invest in human capital through education and healthcare to boost productivity and long-term growth. This strategy directly addresses the root causes of low GDP per capita by improving the workforce's skills and overall well-being.
+ 1. **Low-income countries:** Invest in human capital through education and healthcare to boost productivity and long-term growth. This strategy directly addresses the root causes of low GDP by improving the workforce's skills and overall well-being.
 
 2. **Middle-income countries:** Promote technological advancement and innovation by fostering entrepreneurship and research & development. This approach helps these countries move up the value chain, enhancing productivity and competitiveness, and narrowing the GDP gap with high-income nations.
 
