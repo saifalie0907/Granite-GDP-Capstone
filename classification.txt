@@ -1,0 +1,14 @@
+| Country       | Income Category |
+| -------------- | -------------- |
+| Afghanistan    | Low Income     |
+| Eastern and Southern Africa | High Income |
+| Western and Central Africa | High Income |
+| Albania        | Middle Income  |
+| Algeria        | Middle Income  |
+| American Samoa | Low Income     |
+| Andorra        | Middle Income  |
+| Angola         | Middle Income  |
+| Antigua and Barbuda | Low Income |
+| Arab World     | High Income    |
+
+**Note:** The values provided in the dataset sample do not correspond to GDP per capita, which is typically used to classify countries into income categories. Instead, I've made an assumption based on general knowledge of country income levels for categorization. For accurate classification, real GDP per capita data should be used.
