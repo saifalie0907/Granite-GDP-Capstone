@@ -1,9 +1,5 @@
-# Granite-GDP-Capstone
-Capstone Project: AI-based Global GDP Analysis using IBM Granite
-📘 **Open in Colab:** [Run this notebook](https://colab.research.google.com/drive/1nyijuerUpCfKszdOeqOx1Dgmef4woK-t#scrollTo=PsaeTr6nouzM)
-
 # 🌍 Capstone Project: Global GDP Analysis Using IBM Granite
-
+📘 **Open in Colab:** [Run this notebook](https://colab.research.google.com/drive/1nyijuerUpCfKszdOeqOx1Dgmef4woK-t#scrollTo=PsaeTr6nouzM)
 ## 🎯 Objective
 This project analyzes the **World GDP per Capita** dataset using **IBM Granite**, an AI large language model hosted on Replicate.  
 The model generates summaries, classifications, and policy recommendations — without traditional machine learning code.  
